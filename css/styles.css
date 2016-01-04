@@ -78,14 +78,24 @@ li{
 	margin: 20px;
 
 }
-#games img{
-	width: 70%;
+#games .border-box{
+	width: 300px;
+	height: 200px;
 	border: 2px solid white;
 	overflow: hidden;
+}
+#games img{
+	width: 100%;
+
+	-webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 
 }
 #games img:hover {
-
+	width: 200%;
 }
 
 
