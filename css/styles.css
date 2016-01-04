@@ -1,3 +1,8 @@
+/* General */
+#body{
+	font-family: 'Droid Sans', sans-serif;
+	background: black;
+}
 /* Navbar */
 #navbar{
 	height: 70px;
@@ -26,10 +31,10 @@ li{
 }
 
 
-
 /* About*/
 #about{
 	background: white;
+	padding: 30px;
 }
 #me{
 	margin-left: 35%;
@@ -47,6 +52,7 @@ li{
 	margin: 0px;
 }
 #projects{
+	padding: 30px;
 	height: 500px;
 	background: #08acd1;
 	width: 100%;
@@ -59,19 +65,27 @@ li{
 	margin: 0px;
 }
 #games{
+	padding: 30px;
 	background: black;
-	width: 100%
+	width: 100%;
+	color: white;
 }
 .game-title, .game-description{
 	color: white;
 }
 
-#music-img{
-	width: 100%;
-}
+#games .row{
+	margin: 20px;
 
-#space-img{
-	width: 100%;
+}
+#games img{
+	width: 70%;
+	border: 2px solid white;
+	overflow: hidden;
+
+}
+#games img:hover {
+
 }
 
 
@@ -84,6 +98,7 @@ li{
 	margin: 0px;
 }
 #music{
+	padding: 30px;
 	height: 500px;
 	background: #1eea40;
 	width: 100%;
@@ -92,6 +107,7 @@ li{
 
 /* Footer */
 #contact{
+	background: white;
 	width: 100%;
 	height: 200px; 
 }
