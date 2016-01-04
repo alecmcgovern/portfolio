@@ -1,0 +1,73 @@
+/* Navbar */
+#navbar{
+	height: 70px;
+	background-color: black;
+}
+ul{
+	padding: 0px;
+	margin: 0px;
+}
+.nav-link{
+	display: inline;
+	color: white;
+	list-style-type: none;
+	padding: 0px 10px 0px 10px;
+}
+
+/* General */
+
+
+
+/* About*/
+#about{
+	height: 500px;
+}
+#me{
+	margin-left: 35%;
+	margin-top: 100px;
+	width: 30%;
+}
+
+
+/* Projects */
+#projects-header{
+	color: white;
+	margin: 0px;
+}
+#projects{
+	height: 500px;
+	background: blue;
+}
+
+
+
+/* Games */
+#games-header{
+	color: white;
+	margin: 0px;
+}
+#games{
+	background: black;
+}
+.game-title, .game-description{
+	color: white;
+}
+
+
+#music{
+	width: 40%;
+}
+
+#space{
+	width: 40%;
+}
+
+
+
+
+
+/* Music */
+#green{
+	height: 400px;
+	background: green;
+}
