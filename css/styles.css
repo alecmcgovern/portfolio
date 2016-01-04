@@ -3,31 +3,43 @@
 	height: 70px;
 	background-color: black;
 }
+#nav-header{
+	color: white;
+	margin: 0px;
+	text-align: center;
+}
 ul{
 	padding: 0px;
 	margin: 0px;
 }
-.nav-link{
+li{
 	display: inline;
-	color: white;
 	list-style-type: none;
 	padding: 0px 10px 0px 10px;
 }
-
-/* General */
+.nav-link{
+	color: white;
+}
+.nav-link:hover{
+	color: white;
+	text-decoration: none;
+}
 
 
 
 /* About*/
 #about{
-	height: 500px;
+	background: white;
 }
 #me{
 	margin-left: 35%;
 	margin-top: 100px;
 	width: 30%;
 }
-
+#about-info{
+	width: 30%;
+	margin-left: 35%;
+}
 
 /* Projects */
 #projects-header{
@@ -36,9 +48,9 @@ ul{
 }
 #projects{
 	height: 500px;
-	background: blue;
+	background: #08acd1;
+	width: 100%;
 }
-
 
 
 /* Games */
@@ -48,18 +60,18 @@ ul{
 }
 #games{
 	background: black;
+	width: 100%
 }
 .game-title, .game-description{
 	color: white;
 }
 
-
-#music{
-	width: 40%;
+#music-img{
+	width: 100%;
 }
 
-#space{
-	width: 40%;
+#space-img{
+	width: 100%;
 }
 
 
@@ -67,7 +79,19 @@ ul{
 
 
 /* Music */
-#green{
-	height: 400px;
-	background: green;
+#music-header{
+	color: white;
+	margin: 0px;
+}
+#music{
+	height: 500px;
+	background: #1eea40;
+	width: 100%;
+}
+
+
+/* Footer */
+#contact{
+	width: 100%;
+	height: 200px; 
 }

@@ -5,22 +5,37 @@
 
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" media="screen" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+
 	<script src="http://code.jquery.com/jquery.js"></script>
 	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
+	<!-- Navbar -->
 	<nav id="navbar">
-		<ul>
-			<li class="nav-link"><a href="#about">Alec McGovern</a></li>
-			<li class="nav-link"><a href="#projects">Projects</a></li>
-			<li class="nav-link"><a href="#games">Games</a></li>
-			<li class="nav-link"><a href="#music">Music</a></li>
-			<li class="nav-link"><a href="#contact">Contact</a></li>
+		<h1 id="nav-header">Alec McGovern</h1>
+		<ul class="text-center">
+			<li><a class="nav-link" href="#projects">Projects</a></li>
+			<li><a class="nav-link" href="#games">Games</a></li>
+			<li><a class="nav-link" href="#music">Music</a></li>
+			<li><a class="nav-link" href="#contact">Contact</a></li>
 		</ul>
 	</nav>
+
+	<!-- About -->
 	<div id="about">
 		<img id="me" src="images/profile.jpg">
+		<p id="about-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
+
+
+	<!-- Projects -->
 	<div id="projects">
 		<h1 id="projects-header" class="text-center">Projects</h1>
 
@@ -30,19 +45,60 @@
 		</div>
 
 	</div>
+
+	<!-- Games -->
 	<div id="games">
 		<h1 id="games-header" class="text-center">Games</h1>
 
 
 		<div class="container">
-			<img id="music" src="images/music-trivia1.png">
-			<h3 class="game-title text-center">Music Trivia</h3>
-			<p class="game-description">Quiz yourself on your favorite music genres and see how you stack up against other users witht he leaderboard.</p>
+			<div class="row">
+				<div class="col-md-6 col-lg-6">
+					<img id="music-img" src="images/music-trivia1.png">
+				</div>
+				<div class="col-md-6 col-lg-6">
+					<h3 class="game-title text-center">Music Trivia</h3>
+					<p class="game-description">Quiz yourself on your favorite music genres and see how you stack up against other users witht he leaderboard.</p>
+				
+				</div>
+			
+			</div>
+	
+
+
+			<div class="row">
+				<div class="col-md-6 col-lg-6">
+					<img id="space-img" src="images/space2.png">
+				</div>
+				<div class="col-md-6 col-lg-6">
+					<h3 class="game-title text-center">Space Invasion</h3>
+					<p class="game-description">Play multiplayer or solo in this game</p>
+				
+				</div>
+				
+			</div>
+
 		</div>
 
-		<img id="space" src="images/space2.png">
 	</div>
-	<div id="blue"></div>
-	<div id="green"></div>
+
+
+	<!-- Music -->
+	<div id="music">
+		<h1 id="music-header" class="text-center">Music</h1>
+
+		<div class="container">
+			
+		</div>
+
+	</div>
+
+
+	<div id="contact">
+		<i class="fa fa-linkedin-square"></i>
+		<i class="fa fa-github-square"></i>
+		<i class="fa fa-soundcloud"></i>
+		<p>Email: alecmcgovern444@gmail.com</p>
+	</div>
 </body>
 </html>
