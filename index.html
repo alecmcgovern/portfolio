@@ -11,6 +11,11 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+	<script src="http://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+	<script src="http://cdn.jsdelivr.net/jquery.localscroll/1.4.0/jquery.localScroll.min.js"></script>
 
 </head>
 <body id="body">
@@ -27,14 +32,13 @@
 
 	<!-- About -->
 	<div id="about">
-		<img id="me" src="images/profile.jpg">
-		<p id="about-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		<img id="me" src="images/profile.jpg" hidden>
+		<p id="about-info" hidden>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		<p class="text-center"><a href="">Read My Resume</a></p>
 	</div>
 
 
@@ -164,12 +168,13 @@
 	<div id="contact">
 		<h2 class="text-center">Contact Information</h2>
 
-		<p class="text-center">alecmcgovern444@gmail.com</p>
+		<p class="text-center"><a href="mailto:alecmcgovern444@gmail.com">alecmcgovern444@gmail.com</a></p>
 		<p class="text-center">
-			<i class="fa fa-linkedin-square fa-2x"></i>
-			<i class="fa fa-github-square fa-2x"></i>
-			<i class="fa fa-soundcloud fa-2x"></i>
+			<a href="https://www.linkedin.com/in/alecmcgovern" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+			<a href="https://github.com/alecmcgovern" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+			<a href="https://soundcloud.com/alec-mcgovern" target="_blank"><i class="fa fa-soundcloud fa-2x"></i></a>
 		</p>
+		<p class="text-center"><a href="images/resume.pdf" target="_blank">Read My Resume</a></p>
 	</div>
 </body>
 </html>
