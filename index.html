@@ -21,24 +21,22 @@
 <body id="body">
 	<!-- Navbar -->
 	<nav id="navbar">
-		<h1 id="nav-header">Alec McGovern</h1>
+		<h1 id="nav-header"><a id="name" href="#about">Alec McGovern</a></h1>
 		<ul class="text-center">
-			<li><a class="nav-link" href="#projects">Projects</a></li>
-			<li><a class="nav-link" href="#games">Games</a></li>
-			<li><a class="nav-link" href="#music">Music</a></li>
-			<li><a class="nav-link" href="#contact">Contact</a></li>
+			<li><a class="nav-link" href="#projects-scroll">Projects</a></li>
+			<li><a class="nav-link" href="#game-scroll">Games</a></li>
+			<li><a class="nav-link" href="#music-scroll">Music</a></li>
+			<li><a class="nav-link" href="#contact-scroll">Contact</a></li>
 		</ul>
 	</nav>
 
 	<!-- About -->
 	<div id="about">
-		<img id="me" src="images/profile2.jpg" hidden>
-		<p id="about-info" hidden>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div id="about-me" class="center-block" hidden>
+			<img id="me" class="center-block" src="images/profile2.jpg">
+			<p id="about-info" class="text-center">Hi, I'm a web developer with a strong interest in music and the arts.  The way I see it, the internet has fundamentally changed the way that we share our creative endeavors around the globe.  I aim to be on the front line of where this content is hosted, and to help people around the world share their talents.  When I'm not programming I like to produce music, play games, and go on outdoor adventures.</p>
+		</div>
+		<div id="projects-scroll"></div>
 	</div>
 
 
@@ -71,7 +69,7 @@
 			<div class="row">
 				<div class="col-md-offset-1 col-md-5 col-lg-offset-1 col-lg-5">
 					<h3 class="project-title text-center"><a href="https://skavengr.herokuapp.com/" target="_blank">Skavengr</a></h3>
-					<p class="project-description">This project lets you organize and invite people on scavenger hunts anywhere in the world (called "quests").  It uses google maps to place markers that the quest creator can then write a clue for and specify a time window for the quest to take place.  Participants use the app on their phones to track when they discover a location and receive a notification upon completion.  The first person to finish all the clues gets a virtual trophy!  Built with Ruby on Rails.</p>
+					<p class="project-description">This project lets you organize and invite people on scavenger hunts anywhere in the world (called "quests").  It uses google maps to place markers that the quest creator can then write a clue for and specify a time window for the quest to take place.  Participants use the app on their phones to track when they discover a location and receive a notification upon completion.  The first person to finish all the clues gets a virtual trophy!  Built with Ruby on Rails with <a href="https://www.linkedin.com/in/carl-reiner-95b96199">Carl Reiner</a> and <a href="https://www.linkedin.com/in/joerehfuss">Joe Rehfuss</a>.</p>
 					<p class="text-center">
 						<a href="https://github.com/alecmcgovern/skavengr" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
 					</p>
@@ -88,7 +86,7 @@
 			</div>
 
 		</div>
-
+		<div id="game-scroll"></div>
 	</div>
 
 	<!-- Games -->
@@ -151,6 +149,7 @@
 				</div>	
 			</div>
 		</div>
+		<div id="music-scroll"></div>
 	</div>
 
 
@@ -159,9 +158,18 @@
 		<h1 id="music-header" class="text-center">Music</h1>
 
 		<div class="container">
-			
-		</div>
+			<iframe class="soundcloud-link center-block" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/173888493&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
+
+			<iframe class="soundcloud-link center-block" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/175858910&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+
+			<iframe class="soundcloud-link center-block" width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/209122148&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+
+
+		</div>
+		<div id="contact-scroll"></div>
 	</div>
 
 
