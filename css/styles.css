@@ -49,16 +49,18 @@ li{
 
 /* About*/
 #about{
-	color: white;
-	background-image: url("../images/desert.jpg");
-	background-size: 300%;
-	min-height: 100%;
-	background-repeat: no-repeat;
-	padding: 30px;
-	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 2s; /* Firefox < 16 */
-        -ms-animation: fadein 2s; /* Internet Explorer */
-         -o-animation: fadein 2s; /* Opera < 12.1 */
+	background: black no-repeat center center fixed; 
+	/*background: url("../images/desert.jpg") no-repeat center center fixed; */
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+	min-height: 100vh;
+	padding-top: 30px;
+	-webkit-animation: fadein 2s; 
+       -moz-animation: fadein 2s; 
+        -ms-animation: fadein 2s; 
+         -o-animation: fadein 2s; 
             animation: fadein 2s;
 }
 @keyframes fadein {
@@ -105,25 +107,16 @@ li{
 	width: 80%;
 }
 @media(min-width: 490px){
-	#about{
-		background-size: 200%;
-	}
 	#about-me{
 		width: 70%;
 	}
 }
 @media(min-width: 590px){
-	#about{
-		background-size: 150%;
-	}
 	#about-me{
 		width: 60%;
 	}
 }
 @media(min-width: 880px){
-	#about{
-		background-size: 100%;
-	}
 	#about-me{
 		width: 40%;
 	}
