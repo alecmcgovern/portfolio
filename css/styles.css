@@ -3,6 +3,9 @@
 	font-family: 'Droid Sans', sans-serif;
 	background: black;
 }
+.body{
+	background: black;
+}
 
 #game-scroll, #projects-scroll, #music-scroll, #contact-scroll{
 	height: 40px;
