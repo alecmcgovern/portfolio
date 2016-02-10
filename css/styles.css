@@ -66,18 +66,10 @@ li{
          -o-animation: fadein 2s; 
             animation: fadein 2s;
 }
-@media(min-width: @iphone-screen){
+@media(max-width: @iphone-screen){
 	#about{
-	background: url("../images/desert.jpg") no-repeat center center fixed; 
-	background-attachment: scroll;
-	min-height: 100vh;
-	padding-top: 30px;
-	-webkit-animation: fadein 2s; 
-       -moz-animation: fadein 2s; 
-        -ms-animation: fadein 2s; 
-         -o-animation: fadein 2s; 
-            animation: fadein 2s;
-}
+		background-attachment: scroll;	
+	}
 }
 @keyframes fadein {
     from { opacity: 0; }
