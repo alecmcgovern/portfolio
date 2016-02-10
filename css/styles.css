@@ -53,6 +53,7 @@ li{
 #about{
 	/*background: black no-repeat center center fixed; */
 	background: url("../images/desert.jpg") no-repeat center center fixed; 
+	max-width: 100%;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -69,7 +70,8 @@ li{
 	#about{
 	/*background: black no-repeat center center fixed; */
 	background: url("../images/desert.jpg") no-repeat center center fixed; 
-	background-width: 100%;
+	max-width: 100%;
+	width: 100%;
 	min-height: 100vh;
 	padding-top: 30px;
 	-webkit-animation: fadein 2s; 
