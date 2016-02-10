@@ -69,10 +69,7 @@ li{
 	#about{
 	/*background: black no-repeat center center fixed; */
 	background: url("../images/desert.jpg") no-repeat center center fixed; 
-	-webkit-background-size: 100%;
-  	-moz-background-size: 100%;
-  	-o-background-size: 100%;
-  	background-size: 100%;
+	background-width: 100%;
 	min-height: 100vh;
 	padding-top: 30px;
 	-webkit-animation: fadein 2s; 
