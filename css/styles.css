@@ -53,11 +53,11 @@ li{
 #about{
 	/*background: black no-repeat center center fixed; */
 	background: url("../images/desert.jpg") no-repeat center center fixed; 
-	max-width: 100%;
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
   	background-size: cover;
+  	background-attachment: fixed;
 	min-height: 100vh;
 	padding-top: 30px;
 	-webkit-animation: fadein 2s; 
@@ -68,10 +68,8 @@ li{
 }
 @media(min-width: @iphone-screen){
 	#about{
-	/*background: black no-repeat center center fixed; */
 	background: url("../images/desert.jpg") no-repeat center center fixed; 
-	max-width: 100%;
-	width: 100%;
+	background-attachment: scroll;
 	min-height: 100vh;
 	padding-top: 30px;
 	-webkit-animation: fadein 2s; 
