@@ -159,12 +159,14 @@ box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 	overflow: hidden;
 	background-color: white;
 }
+.border-skavengr{
+	height: 200px;
+}
 #projects .row{
 	margin: 20px;
 }
 #skavengr-img{
 	max-width: 150px;
-	max-height: 150px;
 	margin-left: 20px;
 	margin-top: 20px;
 	-webkit-transition: -webkit-transform .8s ease-in-out;
