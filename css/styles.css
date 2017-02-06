@@ -12,8 +12,11 @@
 #game-scroll, #projects-scroll, #music-scroll, #contact-scroll{
 	height: 40px;
 	width: 100%;
+	position: absolute;
+	bottom: 0;
 }
 #about, #projects, #games, #music, #contact{
+	position: relative;
 	z-index: 10;
 }
 /* Navbar */
@@ -118,7 +121,7 @@ box-shadow: 12px 29px 81px 0px rgba(0,0,0,0.75);
 	width: 100%;
 	margin-top: 30px;
 	margin-bottom: 30px;
-	min-height: 120px;
+	min-height: 125px;
 }
 #about-me{
 	width: 80%;
