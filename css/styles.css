@@ -199,8 +199,9 @@ li{
 	justify-content: center;
 }
 
-.video-info {
-	padding: 20px;
+.video {
+	width: 100%;
+	min-height: 360px;
 }
 
 
