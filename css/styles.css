@@ -9,13 +9,13 @@
 	overflow-x: hidden;
 }
 
-#game-scroll, #projects-scroll, #music-scroll, #contact-scroll{
+#game-scroll, #projects-scroll, #music-scroll, #contact-scroll, #graphic-design-scroll{
 	height: 40px;
 	width: 100%;
 	position: absolute;
 	bottom: 0;
 }
-#about, #projects, #games, #music, #contact{
+#about, #projects, #games, #music, #contact, #graphic-design{
 	position: relative;
 	z-index: 10;
 }
@@ -204,6 +204,46 @@ li{
 	min-height: 360px;
 }
 
+
+/* Graphic Design */
+#graphic-design {
+	background: red;
+	padding: 30px;
+	width: 100%;
+}
+
+#graphic-design-header {
+	color: white;
+	margin: 0px;
+}
+
+.pictures-container {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+}
+
+.left-swipe, .right-swipe {
+	width: 0px;
+	height: 0px;
+	border-top: 20px solid black;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+}
+
+.left-swipe {
+	transform: rotate(90deg);
+}
+
+.right-swipe {
+	transform: rotate(270deg);
+}
+
+.picture {
+	height: 100%;
+}
 
 /* Games */
 #games a{
