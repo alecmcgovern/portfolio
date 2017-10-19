@@ -148,6 +148,10 @@ li{
 	font-size: 18px;
 }
 
+#center-block-text:visited {
+	color: white;
+}
+
 
 /* Projects */
 #projects-header{
