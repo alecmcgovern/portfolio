@@ -141,7 +141,7 @@ li{
 
 .center-block-text {
 	display: flex;
-	color: black;
+	color: white;
 	justify-content: center;
 	padding: 10px;
 	font-size: 18px;
