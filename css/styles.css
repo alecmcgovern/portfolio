@@ -149,7 +149,12 @@ li{
 }
 
 #center-block-text:visited {
+	display: flex;
 	color: white;
+	justify-content: center;
+	width: 100%;
+	padding: 10px;
+	font-size: 18px;
 }
 
 /* Projects */
