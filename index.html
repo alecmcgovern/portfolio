@@ -35,9 +35,9 @@
 	<nav id="navbar">
 		<h1 id="nav-header"><a id="name" href="#about">Alec McGovern</a></h1>
 		<ul class="text-center">
+			<li><a class="nav-link" href="#game-scroll">Games</a></li>
 			<li><a class="nav-link" href="#projects-scroll">Projects</a></li>
 			<li><a class="nav-link" href="#graphic-design-scroll">Visual</a></li>
-			<li><a class="nav-link" href="#game-scroll">Interactive</a></li>
 			<li><a class="nav-link" href="#music-scroll">Audio</a></li>
 			<li><a class="nav-link" href="#contact-scroll">Contact</a></li>
 		</ul>
@@ -47,7 +47,89 @@
 	<div id="about">
 		<p id="about-info" class="text-center">Web developer, audio engineer, visual designer.</p>
 		<div id="about-me" class="center-block">
-			<img id="me" class="center-block" src="images/profile2.jpg">
+			<a href="#game-scroll"><img id="me" class="center-block" src="images/MissionControl.jpg"></a>
+			<div class="center-block-text">Help me beta test my new game: Mission Control</div>
+		</div>
+		<div id="game-scroll"></div>
+	</div>
+
+
+	<!-- Games -->
+	<div id="games">
+		<h1 id="games-header" class="text-center">Games</h1>
+
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-lg-6">
+					<div class="border-box center-block">
+						<a href="https://alecmcgovern.github.io/mission-control/" target="_blank"><img id="music-img" src="images/MissionControl.jpg"></a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6">
+					<h3 class="game-title text-center"><a href="https://alecmcgovern.github.io/mission-control/" target="_blank">Mission Control</a></h3>
+					<p class="game-description text-center">Mission Control is inspired by mystery puzzle games like Myst.  Players must discover and solve clues to unlock the story.  Built with React and Redux, this is a work in progress.  Check back soon for more challenges.</p>
+					<p class="text-center">
+						<a href="https://github.com/alecmcgovern/mission-control" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+					</p>
+				</div>
+			
+			</div>
+
+			<hr>
+			<div class="row">
+				<div class="col-md-6 col-lg-6">
+					<div class="border-box center-block">
+						<a href="https://music-trivia.herokuapp.com/" target="_blank"><img id="music-img" src="images/music-trivia1.png"></a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6">
+					<h3 class="game-title text-center"><a href="https://music-trivia.herokuapp.com/" target="_blank">Music Trivia</a></h3>
+					<p class="game-description text-center">Quiz yourself on your favorite music genres and see how you stack up against other users by checking the leaderboard.  This site requires you to sign up in order to keep track of user statistics, but you don't need to use your real email so feel free to make multiple profiles and have fun!  Built with Express, SQL, and Node.</p>
+					<p class="text-center">
+						<a href="https://github.com/alecmcgovern/music_project" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+					</p>
+				</div>
+			
+			</div>
+	
+
+			<hr>
+			<div class="row">
+				<div class="col-md-6 col-lg-6">
+					<div class="border-box center-block">
+						<a href="http://alecmcgovern.github.io/game/" target="_blank">
+							<img id="space-img" src="images/space3.png">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6">
+					<h3 class="game-title text-center"><a href="http://alecmcgovern.github.io/game/" target="_blank">Space Invasion</a></h3>
+					<p class="game-description text-center">Play solo or with a friend in this Space Invaders inpsired game.  Work your way through five levels of increasing difficulty to beat the game.  Built using jQuery, HTML5, CSS, and Javascript.</p>
+					<p class="text-center">
+						<a href="https://github.com/alecmcgovern/game" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+					</p>
+				</div>
+			</div>
+
+
+<!-- 			<hr>
+			<div class="row">
+				<div class="col-md-6 col-lg-6">
+					<div class="border-box center-block">
+						<a href="http://alecmcgovern.github.io/dinosaur-react/" target="_blank">
+							<img id="dino-img" src="images/dino.png">
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-6">
+					<h3 class="game-title text-center"><a href="http://alecmcgovern.github.io/dinosaur-react/" target="_blank">Dinosaur Adventure</a></h3>
+					<p class="game-description text-center">A simple educational game built in 4 hours using React with <a href="#">Haylee Nighbert</a>.  Hover your mouse over a dinosaur to see its hunger level and click to feed it.  If you let any of the hunger levels reach zero, you'll be eaten!!!  After being consumed, you can learn more about facts about the dinosaurs.  Refresh the page to restart.</p>
+					<p class="text-center">
+						<a href="https://github.com/alecmcgovern/dinosaur-react" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+					</p>
+				</div>	
+			</div> -->
 		</div>
 		<div id="projects-scroll"></div>
 	</div>
@@ -145,73 +227,10 @@
 			</div>
 			<div id="right-swipe"></div>
 		</div>
-		<div id="game-scroll"></div>
-	</div>
-
-	<!-- Games -->
-	<div id="games">
-		<h1 id="games-header" class="text-center">Games</h1>
-
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 col-lg-6">
-					<div class="border-box center-block">
-						<a href="https://music-trivia.herokuapp.com/" target="_blank"><img id="music-img" src="images/music-trivia1.png"></a>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-6">
-					<h3 class="game-title text-center"><a href="https://music-trivia.herokuapp.com/" target="_blank">Music Trivia</a></h3>
-					<p class="game-description text-center">Quiz yourself on your favorite music genres and see how you stack up against other users by checking the leaderboard.  This site requires you to sign up in order to keep track of user statistics, but you don't need to use your real email so feel free to make multiple profiles and have fun!  Built with Express, SQL, and Node.</p>
-					<p class="text-center">
-						<a href="https://github.com/alecmcgovern/music_project" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-					</p>
-				</div>
-			
-			</div>
-	
-
-			<hr>
-			<div class="row">
-				<div class="col-md-6 col-lg-6">
-					<div class="border-box center-block">
-						<a href="http://alecmcgovern.github.io/game/" target="_blank">
-							<img id="space-img" src="images/space3.png">
-						</a>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-6">
-					<h3 class="game-title text-center"><a href="http://alecmcgovern.github.io/game/" target="_blank">Space Invasion</a></h3>
-					<p class="game-description text-center">Play solo or with a friend in this Space Invaders inpsired game.  Work your way through five levels of increasing difficulty to beat the game.  Built using jQuery, HTML5, CSS, and Javascript.</p>
-					<p class="text-center">
-						<a href="https://github.com/alecmcgovern/game" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-					</p>
-				</div>
-			</div>
-
-
-<!-- 			<hr>
-			<div class="row">
-				<div class="col-md-6 col-lg-6">
-					<div class="border-box center-block">
-						<a href="http://alecmcgovern.github.io/dinosaur-react/" target="_blank">
-							<img id="dino-img" src="images/dino.png">
-						</a>
-					</div>
-				</div>
-				<div class="col-md-6 col-lg-6">
-					<h3 class="game-title text-center"><a href="http://alecmcgovern.github.io/dinosaur-react/" target="_blank">Dinosaur Adventure</a></h3>
-					<p class="game-description text-center">A simple educational game built in 4 hours using React with <a href="#">Haylee Nighbert</a>.  Hover your mouse over a dinosaur to see its hunger level and click to feed it.  If you let any of the hunger levels reach zero, you'll be eaten!!!  After being consumed, you can learn more about facts about the dinosaurs.  Refresh the page to restart.</p>
-					<p class="text-center">
-						<a href="https://github.com/alecmcgovern/dinosaur-react" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
-					</p>
-				</div>	
-			</div> -->
-		</div>
 		<div id="music-scroll"></div>
 	</div>
 
-
+	
 	<!-- Music -->
 	<div id="music">
 		<h1 id="music-header" class="text-center">Music</h1>

@@ -19,6 +19,7 @@
 	position: relative;
 	z-index: 10;
 }
+
 /* Navbar */
 #navbar{
 	height: 70px;
@@ -138,6 +139,14 @@ li{
 	}
 }
 
+.center-block-text {
+	display: flex;
+	color: black;
+	justify-content: center;
+	padding: 10px;
+	font-size: 18px;
+}
+
 /* Projects */
 #projects-header{
 	margin: 0px;
@@ -178,21 +187,9 @@ li{
 }
 #mahalo-img{
 	max-width: 250px;
-	margin-left: -27px; 
-	-webkit-filter: grayscale(100%);
-       -moz-filter: grayscale(100%);
-         -o-filter: grayscale(100%);
-        -ms-filter: grayscale(100%);
-            filter: grayscale(100%); 
+	margin-left: -27px;
+}
 
-}
-#mahalo-img:hover{
-	-webkit-filter: grayscale(0%);
-       -moz-filter: grayscale(0%);
-         -o-filter: grayscale(0%);
-        -ms-filter: grayscale(0%);
-            filter: grayscale(0%); 
-}
 
 .video-container {
 	display: flex;

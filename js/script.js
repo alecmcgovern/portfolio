@@ -2,6 +2,8 @@ $('document').ready(function(){
 
 	$('#navbar').localScroll({duration:800});
 
+	$('#about-me').localScroll({duration:800});
+
 	const arrayLength = 8;
 
 	var picture = document.getElementById("picture-focused");
