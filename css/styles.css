@@ -139,7 +139,7 @@ li{
 	}
 }
 
-.center-block-text {
+#center-block-text {
 	display: flex;
 	color: white;
 	justify-content: center;
@@ -148,7 +148,7 @@ li{
 	font-size: 18px;
 }
 
-.center-block-text:visited {
+#center-block-text:visited {
 	color: white;
 }
 
